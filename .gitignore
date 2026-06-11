@@ -1,0 +1,17 @@
+# Python
+period-tracker-api/venv/
+period-tracker-api/__pycache__/
+period-tracker-api/*.pyc
+period-tracker-api/.env
+
+# Node
+PeriodTrackerApp/node_modules/
+PeriodTrackerApp/.env
+
+# Firebase
+**/firebase-config.js
+**/.firebase/
+
+# OS
+.DS_Store
+Thumbs.db
