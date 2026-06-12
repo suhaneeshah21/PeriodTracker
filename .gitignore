@@ -3,6 +3,7 @@ period-tracker-api/venv/
 period-tracker-api/__pycache__/
 period-tracker-api/*.pyc
 period-tracker-api/.env
+period-tracker-api/firebase-credentials.json
 
 # Node
 PeriodTrackerApp/node_modules/
