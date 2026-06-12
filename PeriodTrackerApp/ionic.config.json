@@ -1,0 +1,7 @@
+{
+  "name": "PeriodTrackerApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
