@@ -1,24 +1,41 @@
-# Python
+# Python virtual environments
 period-tracker-api/venv/
 period-tracker-api/pertrk/
 period-tracker-api/__pycache__/
 period-tracker-api/**/__pycache__/
-period-tracker-api/*.pyc
+**/__pycache__/
+*.pyc
+*.pyo
+
+# Python env
 period-tracker-api/.env
+
+# Firebase credentials
+period-tracker-api/firebase-credentials.json
 
 # Node
 PeriodTrackerApp/node_modules/
+
+# Frontend env
 PeriodTrackerApp/.env
 
-# Firebase
-**/firebase-config.js
-**/.firebase/
-period-tracker-api/firebase-credentials.json
+# Firebase config
+PeriodTrackerApp/src/config/firebaseConfig.js
 
-# OS
-.DS_Store
-Thumbs.db
-
-# Ionic/React build
+# Ionic/React build outputs
 PeriodTrackerApp/build/
 PeriodTrackerApp/dist/
+PeriodTrackerApp/.ionic/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
